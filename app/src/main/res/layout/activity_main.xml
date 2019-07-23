@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llAm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/imBtn1"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="@drawable/reality"
+        android:onClick="move" />
+
+    <Button
+        android:id="@+id/imBtn2"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="@drawable/space"
+        android:onClick="move" />
+
+    <Button
+        android:id="@+id/imBtn3"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="@drawable/mind"
+        android:onClick="move" />
+
+    <Button
+        android:id="@+id/imBtn4"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="@drawable/power"
+        android:onClick="move" />
+
+    <Button
+        android:id="@+id/imBtn5"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="@drawable/time"
+        android:onClick="move" />
+
+</LinearLayout>
